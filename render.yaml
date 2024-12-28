@@ -5,7 +5,6 @@ services:
     env: docker
     dockerfilePath: .docker/Dockerfile
     dockerContext: .
-    buildTarget: development
     envVars:
       - key: database__client
         value: mysql
