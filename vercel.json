@@ -1,7 +1,6 @@
 {
   "version": 2,
   "buildCommand": "nx run ghost:build",
-  "framework": "ghost",
   "builds": [
     {
       "src": "ghost/core/index.js",
