@@ -18,6 +18,5 @@
     "database__client": "sqlite3",
     "url": "https://${VERCEL_URL}"
   },
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./",
   "installCommand": "yarn install"
 }
