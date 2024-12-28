@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "nx run ghost:build",
+  "buildCommand": "npm install -g ghost-cli && nx run ghost:build",
   "builds": [
     {
       "src": "ghost/core/index.js",
